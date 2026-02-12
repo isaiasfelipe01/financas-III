@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1770922864.01526 "/home/isaias/ufpb/financas-III/Slide/slide.tex" "slide.pdf" "slide" 1770922864.94669 0
-  "/home/isaias/ufpb/financas-III/Slide/slide.tex" 1770922862.71944 5777 12514e5c1672532ed02ccf2ebff5f3f2 ""
+["pdflatex"] 1770923512.44263 "/home/isaias/ufpb/financas-III/Slide/slide.tex" "slide.pdf" "slide" 1770923513.37504 0
+  "/home/isaias/ufpb/financas-III/Slide/slide.tex" 1770923511.23444 5776 72e7ccbd775351c33ab0ac360897af25 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsi0900.tfm" 1136768653 3584 859c630ad84177317fc9327eec97f76b ""
@@ -165,7 +165,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty" 1483400771 637 685bd3d40aca2fa87965a39bc31aca7f ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty" 1595450012 1808 098e1772761e9b4a016e74f1a4c1cb74 ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty" 1519256047 4026 1ba2c6a2acf275d63cb85d60d8597fe8 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty" 1513642141 1309 faa26b9e41a5448d9a4e00342a6a012a ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty" 1663185823 7162 0c4afceb6ad13f0c840d4cd6df424f65 ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty" 1513642141 835 ac57517533d993c08f21ee9ac10445d7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty" 1513642141 1013 bbd3a76e797308a780fd7196c973ec2e ""
@@ -231,10 +230,10 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1764115200 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770564152.07152 4547210 0b4d8bce3d83ee4f50b88a57a6a0d7ef ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770563817 7759955 003a27a20acab990fc86605e7e03714f ""
-  "slide.aux" 1770922864.83248 1954 c0d9d68e1c2e12781cfd990e05a25337 "pdflatex"
-  "slide.nav" 1770922864.83366 923 02772eacdfe77d67b79e45a640fd18ab "pdflatex"
-  "slide.out" 1770922864.54978 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "slide.tex" 1770922862.71944 5777 12514e5c1672532ed02ccf2ebff5f3f2 ""
+  "slide.aux" 1770923513.26158 1954 c0d9d68e1c2e12781cfd990e05a25337 "pdflatex"
+  "slide.nav" 1770923513.26265 923 02772eacdfe77d67b79e45a640fd18ab "pdflatex"
+  "slide.out" 1770923512.97826 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "slide.tex" 1770923511.23444 5776 72e7ccbd775351c33ab0ac360897af25 ""
   (generated)
   "slide.aux"
   "slide.log"
