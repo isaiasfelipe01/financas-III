@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main copy.aux
 The style file: abntex2-alf.bst
@@ -13,7 +13,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
-Warning--I didn't find a database entry for "singh2025pecking"
 Warning--I didn't find a database entry for "shyam1999testing"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -24,45 +23,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 6 entries,
+You've used 7 entries,
             6714 wiz_defined-function locations,
-            1239 strings with 10540 characters,
-and the built_in function-call counts, 5652 in all, are:
-= -- 534
-> -- 212
-< -- 20
-+ -- 124
-- -- 62
-* -- 426
-:= -- 779
-add.period$ -- 15
-call.type$ -- 6
-change.case$ -- 69
-chr.to.int$ -- 21
-cite$ -- 5
-duplicate$ -- 236
-empty$ -- 333
-format.name$ -- 295
-if$ -- 1316
+            1245 strings with 10746 characters,
+and the built_in function-call counts, 6680 in all, are:
+= -- 607
+> -- 264
+< -- 24
++ -- 143
+- -- 77
+* -- 515
+:= -- 908
+add.period$ -- 18
+call.type$ -- 7
+change.case$ -- 84
+chr.to.int$ -- 25
+cite$ -- 6
+duplicate$ -- 284
+empty$ -- 393
+format.name$ -- 365
+if$ -- 1555
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 102
-newline$ -- 33
-num.names$ -- 25
-pop$ -- 151
+missing$ -- 121
+newline$ -- 38
+num.names$ -- 30
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 31
 quote$ -- 0
-skip$ -- 314
+skip$ -- 361
 stack$ -- 1
-substring$ -- 260
-swap$ -- 133
-text.length$ -- 15
+substring$ -- 302
+swap$ -- 161
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 45
+while$ -- 54
 width$ -- 0
-write$ -- 93
-(There were 2 warnings)
+write$ -- 111
+(There was 1 warning)
