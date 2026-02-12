@@ -1,0 +1,6 @@
+\babel@toc {portuguese}{}\relax 
+\beamer@sectionintoc {1}{Introdução e Contexto}{3}{0}{1}
+\beamer@sectionintoc {2}{A Teoria de Pecking Order (POT)}{4}{0}{2}
+\beamer@sectionintoc {3}{Lacuna e Problema de Pesquisa}{6}{0}{3}
+\beamer@sectionintoc {4}{Hipóteses do Estudo}{8}{0}{4}
+\beamer@sectionintoc {5}{Relevância e Conclusão}{12}{0}{5}

@@ -1,0 +1,215 @@
+\documentclass[10pt, aspectratio=169]{beamer}
+
+% Configurações de idioma e codificação
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{booktabs} % Para tabelas mais bonitas
+\usepackage{graphicx}
+
+% Tema e Cores
+\usetheme{Madrid}
+\usecolortheme{whale}
+\usefonttheme{professionalfonts}
+
+% Dados da Apresentação
+\title[Hierarquia Financeira e POT]{A Hierarquia Financeira em Foco: \\ Uma Análise da Teoria de Pecking Order via Decomposição do Déficit de Financiamento}
+\author[Sousa \& Silva]{Isaias Felipe Silva de Sousa \\ João Pedro Stênio Farias Silva}
+\institute[Finanças III]{Finanças Aplicadas III}
+\date{\today}
+
+% Início do Documento
+\begin{document}
+
+% Slide 1: Título
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Slide 2: Roteiro
+\begin{frame}{Roteiro da Apresentação}
+    \tableofcontents
+\end{frame}
+
+% Seção 1: Introdução
+\section{Introdução e Contexto}
+
+% Slide 3: O Dilema Financeiro
+\begin{frame}{O Dilema da Estrutura de Capital}
+    \begin{itemize}
+        \item \textbf{Decisão Central:} Como financiar o crescimento corporativo e investimentos?
+        \item \textbf{Impactos:} Criação de valor, gerenciamento de risco e custo de capital (Assaf Neto, 2014; Damodaran, 2014).
+        \item \textbf{Evolução Teórica:}
+            \begin{itemize}
+                \item \textit{Modigliani \& Miller (1958, 1963):} Da irrelevância em mercados perfeitos à relevância dos benefícios fiscais.
+                \item \textit{Trade-Off Theory:} Busca por uma estrutura ótima (benefício fiscal vs. custo de falência).
+                \item \textbf{Pecking Order Theory (POT):} Foco da nossa análise (Gitman \& Zutter, 2015).
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Seção 2: A Teoria de Pecking Order
+\section{A Teoria de Pecking Order (POT)}
+
+% Slide 4: Fundamentos da POT
+\begin{frame}{Fundamentos da Teoria de Pecking Order}
+    \begin{block}{Premissa Central}
+        Baseada na \textbf{assimetria de informações} entre gestores (\textit{insiders}) e investidores externos (\textit{outsiders}) (Berk \& Demarzo, 2017).
+    \end{block}
+    
+    \vspace{0.5cm}
+    
+    \begin{itemize}
+        \item Não existe uma meta rígida de alavancagem ótima.
+        \item As decisões seguem uma \textbf{hierarquia} para minimizar custos de seleção adversa e sinalização negativa.
+        \item A emissão de ações (\textit{equity}) é vista como último recurso, pois sinaliza possível superavaliação dos ativos (Damodaran, 2014).
+    \end{itemize}
+\end{frame}
+
+% Slide 5: A Hierarquia de Financiamento
+\begin{frame}{A Hierarquia de Preferências}
+    Segundo a POT, a ordem de preferência para financiamento é:
+    
+    \begin{enumerate}
+        \item \textbf{Recursos Internos:} Lucros retidos (menor custo de informação).
+        \item \textbf{Dívida:} Quando os recursos internos esgotam. Fonte segura que evita diluição.
+        \item \textbf{Emissão de Ações (Equity):} Última instância. Envolve custos de transação elevados e sinalização negativa ao mercado.
+    \end{enumerate}
+    
+    \vspace{0.5cm}
+    \begin{center}
+        \textit{"Empresas preferem financiar investimentos com lucros retidos, depois dívida, e por fim equity."}
+    \end{center}
+\end{frame}
+
+% Seção 3: O Problema de Pesquisa
+\section{Lacuna e Problema de Pesquisa}
+
+% Slide 6: Evidências Empíricas Mistas
+\begin{frame}{O Debate na Literatura}
+    Apesar da lógica intuitiva, os resultados empíricos são inconclusivos:
+    \begin{itemize}
+        \item \textbf{A favor:} Shyam-Sunder e Myers (1999) em grandes empresas dos EUA; Agyei et al. (2020) em Gana; Singh et al. (2025) na Índia.
+        \item \textbf{Contra/Nuances:} Kakouris e Psychoyios (2025) indicam desvios ao emitir ou recomprar \textit{equity}.
+        \item \textbf{Fatores Moderadores:} Liquidez, lucratividade e restrições financeiras influenciam a aderência ao modelo.
+    \end{itemize}
+\end{frame}
+
+% Slide 7: Objetivo e Pergunta
+\begin{frame}{Objetivo do Estudo}
+    \begin{alertblock}{Objetivo}
+        Investigar a robustez da hierarquia de financiamento através da \textbf{decomposição do déficit de financiamento}, testando ajustes anuais frente a restrições e políticas de dividendos.
+    \end{alertblock}
+
+    \vspace{0.5cm}
+    
+    \textbf{Pergunta de Pesquisa:}
+    \begin{quote}
+        "No ajuste do financiamento anual, as companhias preferem lucros retidos, depois dívida, e por fim equity?"
+    \end{quote}
+\end{frame}
+
+% Seção 4: Metodologia e Hipóteses
+\section{Hipóteses do Estudo}
+
+% Slide 8: Metodologia Base
+\begin{frame}{Metodologia: O Modelo de Déficit}
+    Adota-se o modelo de \textbf{Shyam-Sunder e Myers (1999)}.
+    
+    \vspace{0.3cm}
+    \textbf{Variáveis Analisadas:}
+    \begin{itemize}
+        \item Déficit de Financiamento (Investimentos + Dividendos - Fluxo de Caixa Operacional).
+        \item Variação de Dívida vs. Variação de Equity.
+        \item Payout (Política de Dividendos).
+        \item Restrições Financeiras.
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    A hipótese central de ordem hierárquica é desdobrada em três hipóteses testáveis.
+\end{frame}
+
+% Slide 9: Hipótese 1
+\begin{frame}{H1: Aderência Estrita ao Modelo}
+    \begin{block}{Hipótese 1}
+        O coeficiente do déficit de financiamento sobre a variação da Dívida ($\Delta$ Dívida) é \textbf{positivo e próximo de 1}.
+    \end{block}
+    
+    \textbf{Justificativa:}
+    \begin{itemize}
+        \item Na versão estrita da POT, qualquer déficit não coberto pelo fluxo de caixa deve ser financiado marginalmente por \textbf{nova dívida}.
+        \item Evita-se a emissão de ações a todo custo (Kakouris; Psychoyios, 2025).
+        \item Evidências em mercados emergentes sugerem que a sensibilidade à dívida aumenta conforme o investimento cresce.
+    \end{itemize}
+\end{frame}
+
+% Slide 10: Hipótese 2
+\begin{frame}{H2: O Papel dos Dividendos}
+    \begin{block}{Hipótese 2}
+        Um \textit{payout} mais alto aumenta o déficit de financiamento e eleva a dependência de dívida.
+    \end{block}
+    
+    \textbf{Justificativa:}
+    \begin{itemize}
+        \item Dividendos são rígidos (\textit{sticky}); empresas evitam cortes abruptos para não enviar sinais negativos (Hull, 2016).
+        \item O pagamento de dividendos drena a retenção de lucros (fonte primária).
+        \item Resultado: A empresa é forçada a recorrer ao próximo nível da hierarquia: a \textbf{dívida}.
+    \end{itemize}
+\end{frame}
+
+% Slide 11: Hipótese 3
+\begin{frame}{H3: Restrições Financeiras}
+    \begin{block}{Hipótese 3}
+        Sob maior restrição financeira, a relação déficit-dívida enfraquece.
+    \end{block}
+    
+    \textbf{Justificativa:}
+    \begin{itemize}
+        \item Empresas com capacidade de endividamento esgotada (\textit{debt capacity constraints}) não podem seguir a POT estrita.
+        \item Para evitar custos de dificuldades financeiras (\textit{distress costs}), elas desviam da hierarquia.
+        \item Solução forçada: Emitir \textit{equity} ou restringir investimentos, reduzindo a aderência à emissão de dívida pura.
+    \end{itemize}
+\end{frame}
+
+% Seção 5: Conclusão
+\section{Relevância e Conclusão}
+
+% Slide 12: Contexto Brasileiro
+\begin{frame}{Relevância para o Brasil}
+    Por que estudar isso no contexto brasileiro?
+    
+    \begin{itemize}
+        \item \textbf{Custo de Capital:} Empresas enfrentam custos elevados.
+        \item \textbf{Crédito:} Restrições de crédito de longo prazo são comuns.
+        \item \textbf{Distorções:} Esses fatores podem exacerbar ou distorcer a aplicação da hierarquia padrão prevista pela teoria em mercados desenvolvidos (Souza; Ávila; Prado, 2024).
+    \end{itemize}
+\end{frame}
+
+% Slide 13: Considerações Finais
+\begin{frame}{Considerações Finais}
+    Este estudo busca contribuir para o entendimento de como a \textbf{Teoria de Pecking Order} se comporta no ajuste anual da estrutura de capital.
+    
+    \vspace{0.5cm}
+    \textbf{Contribuições esperadas:}
+    \begin{itemize}
+        \item Validar se a rigidez dos dividendos força o endividamento.
+        \item Entender o limite da dívida (restrições) como fator de quebra da hierarquia.
+        \item Fornecer evidências sobre o comportamento financeiro em mercados emergentes.
+    \end{itemize}
+\end{frame}
+
+% Slide 14: Referências
+\begin{frame}[allowframebreaks]{Referências Bibliográficas}
+    \footnotesize
+    \begin{thebibliography}{99}
+        \bibitem{Assaf2014} Assaf Neto, A. (2014). \textit{Finanças Corporativas e Valor}. Atlas.
+        \bibitem{Berk2017} Berk, J.; Demarzo, P. (2017). \textit{Corporate Finance}. Pearson.
+        \bibitem{Damodaran2014} Damodaran, A. (2014). \textit{Applied Corporate Finance}. Wiley.
+        \bibitem{Kakouris2025} Kakouris, K.; Psychoyios, D. (2025). Debt, equity, and the pecking order. \textit{Int. Journal of Financial Studies}.
+        \bibitem{Shyam1999} Shyam-Sunder, L.; Myers, S. C. (1999). Testing static tradeoff against pecking order models of capital structure.
+        \bibitem{Souza2024} Souza, J. C. M. et al. (2024). Decisões de estrutura de capital... \textit{Revista Evidenciação Contábil \& Finanças}.
+        \bibitem{Yildirim2021} Yildirim, D.; Çelik, A. K. (2021). Testing the pecking order theory... \textit{Borsa Istanbul Review}.
+    \end{thebibliography}
+\end{frame}
+
+\end{document}
