@@ -35,101 +35,121 @@
 
 \maketitle
 
+
+\newpage
+\tableofcontents
+
 \newpage
 \section{Introdução}
 
-A decisão de como financiar o crescimento corporativo e os investimentos constitui um dos dilemas centrais na gestão financeira, com implicações diretas sobre a criação de valor, o gerenciamento de risco e o custo de capital das organizações \cite{AssafNeto2014,Damodaran2014}. Desde as proposições fundamentais de Modigliani e Miller (1958, 1963), que estabeleceram a irrelevância da estrutura de capital em mercados perfeitos e a posterior relevância dos benefícios fiscais da dívida, a literatura financeira tem buscado entender os determinantes das escolhas de financiamento \cite{Agyei2020,Souza2024}. Nesse cenário, a Teoria de Pecking Order (POT), consolidou-se como uma abordagem dominante para explicar o comportamento financeiro das firmas, contrapondo-se frequentemente à Teoria do Trade-Off \cite{Gitman2015,Yildirim2021}.
+A decisão de como financiar o crescimento corporativo e os investimentos constitui um dos dilemas centrais na gestão financeira, com implicações diretas sobre a criação de valor, o gerenciamento de risco e o custo de capital das organizações \cite{AssafNeto2014,Damodaran2014}. O debate acerca da proporcionalidade ideal entre capital de terceiros e capital próprio evoluiu de uma proposição inicial de neutralidade, em mercados perfeitos, para um arcabouço teórico robusto que incorpora fricções de mercado, assimetrias informacionais, custos de agência e comportamentos oportunísticos por parte de gestores e investidores.\cite{david2007}
 
-Fundamentada na premissa da assimetria de informações entre gestores e investidores externos, a POT postula que não existe uma meta rígida de alavancagem ótima \cite{BerkDeMarzo2017,Singh2025}. Em vez disso, as decisões de financiamento seguem uma hierarquia destinada a minimizar os custos de seleção adversa e sinalização negativa ao mercado \cite{Gitman2015,Souza2024}. Segundo esta teoria, as empresas preferem financiar seus investimentos primeiramente com recursos internos; esgotada essa fonte, recorrema rescursos de terceiros. Sendo esses, empréstimos em um primeiro momento e, somente em última instância, à emissão de novas ações, uma vez que esta última sinaliza uma avaliação dos ativos da empresa e envolve custos de transação mais elevados \cite{Damodaran2014}.
+Desde as proposições fundamentais de Modigliani e Miller (1958, 1963), que estabeleceram a irrelevância da estrutura de capital em mercados perfeitos e a posterior relevância dos benefícios fiscais da dívida, a literatura financeira tem buscado entender os determinantes das escolhas de financiamento \cite{Agyei2020,Souza2024}. Nesse cenário, a Teoria de Pecking Order (TPO), consolidou-se como uma abordagem dominante para explicar o comportamento financeiro das firmas, contrapondo-se frequentemente à Teoria do Trade-Off \cite{Gitman2015,Yildirim2021}.
 
-Apesar da lógica intuitiva da POT, a literatura empírica apresenta tanto resultados a favor dessa ordem de prioridade, quanto resultados desfavoráveis a essa ordem, e em certos casos, apresenta também resultados inconclusivos. Dessa forma, criando uma lacuna de pesquisa sobre a aplicabilidade universal do modelo em diferentes contextos econômicos e condições financeiras \cite{Singh2025, Yildirim2021}. Enquanto o estudo seminal de Shyam-Sunder e Myers (1999) encontrou forte aderência ao modelo em grandes empresas norte-americanas, pesquisas em mercados emergentes e com diferentes restrições financeiras oferecem evidências divergentes. Os estudos de \citeonline{Agyei2020} e \citeonline{Singh2025} encontraram suporte para a POT em empresas de Gana e Índia, respectivamente, destacando a influência da liquidez e lucratividade \cite{Agyei2020,Singh2025}. Em contrapartida, estudos recentes como o de Kakouris e Psychoyios (2025) indicam que, embora empresas sigam a ordem hierárquica para emissão e redenção de dívida, elas frequentemente se desviam do modelo ao emitir ou recomprar ações, sugerindo que o comportamento não é uniforme em todas as atividades de financiamento \cite{Kakouris2025}.
+Fundamentada na premissa da assimetria de informações entre gestores e investidores externos, a TPO postula que não existe uma meta rígida de alavancagem ótima \cite{BerkDeMarzo2017,Singh2025}. Em vez disso, as decisões de financiamento seguem uma hierarquia destinada a minimizar os custos de seleção adversa e sinalização negativa ao mercado \cite{Gitman2015,Souza2024}. Segundo esta teoria, as empresas preferem financiar seus investimentos primeiramente com recursos internos; esgotada essa fonte, recorrema rescursos de terceiros. Sendo esses, empréstimos em um primeiro momento e, somente em última instância, à emissão de novas ações, uma vez que esta última sinaliza uma avaliação dos ativos da empresa e envolve custos de transação mais elevados \cite{Damodaran2014}.
+
+Apesar da lógica intuitiva da TPO, a literatura empírica apresenta tanto resultados a favor dessa ordem de prioridade, quanto resultados desfavoráveis a essa ordem, e em certos casos, apresenta também resultados inconclusivos. Dessa forma, criando uma lacuna de pesquisa sobre a aplicabilidade universal do modelo em diferentes contextos econômicos e condições financeiras \cite{Singh2025, Yildirim2021}. Enquanto o estudo seminal de Shyam-Sunder e Myers (1999) encontrou forte aderência ao modelo em grandes empresas norte-americanas, pesquisas em mercados emergentes e com diferentes restrições financeiras oferecem evidências divergentes. Os estudos de \citeonline{Agyei2020} e \citeonline{Singh2025} encontraram suporte para a TPO em empresas de Gana e Índia, respectivamente, destacando a influência da liquidez e lucratividade \cite{Agyei2020,Singh2025}. Em contrapartida, estudos recentes como o de Kakouris e Psychoyios (2025) indicam que, embora empresas sigam a ordem hierárquica para emissão e redenção de dívida, elas frequentemente se desviam do modelo ao emitir ou recomprar ações, sugerindo que o comportamento não é uniforme em todas as atividades de financiamento \cite{Kakouris2025}.
 
 Portanto, o presente estudo visa preencher tal lacuna ao investigar a robustez da hierarquia de financiamento especificamente através da decomposição do déficit de financiamento, testando como o ajuste anual responde a restrições e políticas de dividendos. Logo, a pergunta de pesquisa que norteia esta investigação é: \textbf{No ajuste do financiamento anual, as companhias preferem lucros retidos, depois dívida, e por fim equity?} 
 
 O objetivo geral deste estudo esta atrelado à avaliação da existência de uma ordem hierárquica observável na escolha do método de financiamento das firmas. Para responder objetivo geral proposto, o mesmo será desdobrada em três objetivos especificos:
 
 \begin{itemize}
-    \item Analisar a sensibilidade do endividamento em relação ao déficit de financiamento, testando se as variações de capital de terceiros cobrem a lacuna de recursos internos, conforme preconiza a versão estrita da Pecking Order Theory.
+    \item Analisar a sensibilidade do endividamento em relação ao déficit de financiamento, testando se as variações de capital de terceiros cobrem a lacuna de recursos internos, conforme preconiza a versão estrita da TPO.
     \item Avaliar o impacto da política de payout sobre a estrutura de capital, verificando se a rigidez dos dividendos atua como um impulsionador do déficit de financiamento e, consequentemente, da dependência de dívida.
     \item Investigar o efeito moderador das restrições financeiras e da capacidade de endividamento na hierarquia de fontes de recursos, identificando se altos níveis de alavancagem ou escassez de crédito enfraquecem a relação entre déficit e emissão de dívida.
 \end{itemize}
 
-A relevância desta análise é reforçada pela observação de que empresas em mercados emergentes, como o Brasil, enfrentam custos de capital elevados e restrições de crédito de longo prazo, o que pode exacerbar ou distorcer a aplicação da hierarquia padrão prevista pela teoria \cite{Souza2024, AssafNeto2014}. Portanto, o presente trabalho visa contribuir para o entendimento de como fatores como a rigidez da política de dividendos e as restrições de capacidade de endividamento moderam a aplicação da Teoria de Pecking Order no ajuste anual da estrutura de capital.
+A relevância desta análise é reforçada pela observação de que empresas em mercados emergentes, como o Brasil, enfrentam custos de capital elevados e restrições de crédito de longo prazo, o que pode exacerbar ou distorcer a aplicação da hierarquia padrão prevista pela teoria \cite{Souza2024, AssafNeto2014}. Portanto, o presente trabalho visa contribuir para o entendimento de como fatores como a rigidez da política de dividendos e as restrições de capacidade de endividamento moderam a aplicação da TPO no ajuste anual da estrutura de capital.
 
 \newpage
 
-\section{Referencial Teórico}
+\section{Referencial teórico}
 
 \subsection{Fundamentos da Estrutura de Capital}
 A estrutura de capital refere-se à composição das fontes de financiamento de longo prazo de uma empresa, definindo a proporção entre capital de terceiros e capital próprio utilizada para financiar seus investimentos \cite{AssafNeto2014}. Como explicam \citeonline{Gitman2015}, um dos objetivos das decisões financeiras é maximizar a riqueza dos acionistas, o que, consequentemente, implica em buscar uma estrutura que minimize o custo total de capital e maximize o valor da empresa.
 
-O ponto de partida para o debate moderno sobre o tema são as proposições de Modigliani e Miller. Em 1958, sob a hipótese de mercados perfeitos e sem impostos, os autores argumentaram que a estrutura de capital é irrelevante para o valor da empresa, pois este seria determinado apenas pela rentabilidade dos ativos e pelo risco do negócio, dessa forma, o valor da firma independe da forma como ela é financiada \cite{modigliani1958}.
+O ponto de partida para o debate moderno sobre o tema são as proposições de Modigliani e Miller. Em 1958, sob a hipótese de mercados perfeitos e sem impostos, os autores argumentaram que a estrutura de capital é irrelevante para o valor da empresa, pois este seria determinado apenas pela rentabilidade dos ativos e pelo risco do negócio, dessa forma, o valor da firma independe da forma como ela é financiada \cite{modigliani1958}. Esta proposição serviu como um \textit{benchmark} teórico, permitindo que acadêmicos identificassem quais imperfeições de mercado realmente afetavam o valor das firmas \cite{david2007}.
 
 Posteriormente, Modigliani e Miller introduziram os impostos corporativos no modelo. Os autores reconheceram que o endividamento poderia aumentar o valor da empresa devido à dedutibilidade fiscal dos juros, sugerindo, em uma situação extrema, que a estrutura ótima seria composta quase integralmente por dívidas \cite{modigliani1963}. No entanto, o relaxamento das premissas propsotas por \citeonline{modigliani1958,modigliani1963} deu origem a diferentes teorias que buscam explicar as decisões financeiras das organizações, destacando-se a Teoria de Trade-Off, a Teoria de Pecking Order e a Teoria de Market Timing \cite{Singh2025, Souza2024}.
 
 \subsection{Teoria do \textit{Trade-off}}
 
-Teoria do \textit{Trade-off} (TOT) introduz as imperfeições do mercado, como os impostos e os custos de insolvência, sugerindo que as empresas buscam atingir uma estrutura ótima de capital equilibrando a economia fiscal gerada pelos juros com os custos de falência e de agência que surgem com o aumento da alavancagem \cite{Souza2024, brealey2020}. 
+Teoria do \textit{Trade-off} (TTO) introduz as imperfeições do mercado, como os impostos e os custos de insolvência, sugerindo que as empresas buscam atingir uma estrutura ótima de capital equilibrando a economia fiscal gerada pelos juros com os custos de falência e de agência que surgem com o aumento da alavancagem \cite{Souza2024, brealey2020, david2007}. 
 
 De acordo com essa abordagem, a empresa pondera os benefícios fiscais proporcionados pelo uso da dívida, contra os custos de dificuldades financeiras e de falência que aumentam à medida que o endividamento cresce \cite{Yildirim2021}. Sendo assim, como explicam \citeonline{Souza2024}, empresas com maior porte, maior lucratividade e ativos tangíveis possuem uma melhor capacidade de endividamento e um forte incentivo fiscal para se alavancarem.
 
-Os custos de agência emergem dos conflitos de interesse entre acionistas e credores, que se acentuam com o maior endividamento \cite{jensen1976}. Assim, a TOT prevê que empresas maiores e mais lucrativas, que possuem menor risco de falência e maior capacidade de usufruir dos benefícios fiscais, tenderiam a ser mais endividadas \cite{Agyei2020}. Em contrapartida, empresas com alto risco de negócio ou ativos intangíveis deveriam utilizar menos dívida. A TOT sugere uma relação positiva entre lucratividade e endividamento, pois empresas mais rentáveis têm mais lucro tributável para proteger \cite{Souza2024}.
+Outro aspecto é o custo de agência que emergem dos conflitos de interesse entre acionistas e credores, que se acentuam com o maior endividamento \cite{jensen1976}. Assim, a TTO prevê que empresas maiores e mais lucrativas, que possuem menor risco de falência e maior capacidade de usufruir dos benefícios fiscais, tenderiam a ser mais endividadas \cite{Agyei2020}. Em contrapartida, empresas com alto risco de negócio ou ativos intangíveis deveriam utilizar menos dívida. A TTO sugere uma relação positiva entre lucratividade e endividamento, pois empresas mais rentáveis têm mais lucro tributável para proteger \cite{Souza2024}.
+
+Portanto, empresas lucrativas, sob a ótica da TTO, deveriam ser mais endividadas para proteger seus lucros da tributação \cite{amaral2011}.  No entanto, a literatura empírica brasileira apresenta resultados que contradizem essa teoria, mostrando uma relação negativa entre lucro e dívida, o que aponta para a superioridade explicativa da TPO em cenários de alta assimetria informacional \cite{david2007, britto2018, Souza2024}.
+
+\subsection{Teoria de \textit{Market Timing}}
+ 
+A Teoria de \textit{Market Timing}, protagonizada por Baker e Wurgler (\citeyear{baker2002}), define o \textit{Equity Market Timing} como a prática de emitir ações quando os preços estão elevados e recomprá-las quando os preços estão deprimidos \cite{baker2002}. Diferente da TOT, onde a emissão de ações é um último recurso após o esgotamento das demais fontes, no \textit{Market Timing} a emissão é uma decisão oportunística para aproveitar janelas em que o custo do capital próprio é temporariamente reduzido em razão do excesso de otimismo dos investidores.
+ 
+Sob a perspectiva dessa teoria, a estrutura de capital é, portanto, o resultado acumulado de decisões passadas de \textit{timing} de mercado, e não de um ajuste a uma meta ótima de alavancagem \cite{baker2002}. Assim, empresas com histórico de emissões em períodos de alta valorização tendem a apresentar menor alavancagem por períodos prolongados, refletindo a persistência do efeito de \textit{Market Timing}.
+ 
+No cenário brasileiro, as evidências sobre o \textit{Market Timing} são escassas e, por vezes, inconclusivas \cite{januario2022}. Embora a alavancagem das empresas brasileiras diminua no período de uma Oferta Pública Inicial (IPO), esse efeito não apresenta a persistência necessária para ser considerado o principal determinante da estrutura de capital de longo prazo. Isso sugere que as empresas brasileiras podem até cronometrar o mercado para captar recursos, mas tendem a reequilibrar suas estruturas de capital pouco tempo depois, o que enfraquece a versão forte da teoria de \textit{Market Timing} no país \cite{januario2022}.
 
 \subsection{Teoria de \textit{Pecking Order}}
 
 Diferentemente da TOT, a Teoria de Pecking Order, proposta por \citeonline{myers1984} e \citeonline{myers1984b}, rejeita a ideia de que exista uma estrutura ótima de capital. O pilar central dessa teoria é a assimetria de informações existente entre os gestores e os investidores de mercado. Como os gestores possuem informações privilegiadas sobre os verdadeiros fluxos de caixa e oportunidades da empresa, a emissão de novas ações costuma ser interpretada pelo mercado como um sinal negativo de que os papéis da empresa podem estar superavaliados, gerando custos de seleção adversa e um consequente desconto no preço das ações \cite{Singh2025,Yildirim2021}.
 
-Para evitar a subavaliação dos ativos e os custos de emissão de novas ações, a POT sugere que os gestores seguem uma ordem de preferência no financiamento. A prioridade inicial é voltada para os lucros retidos, ou seja, o capital próprio. Se estes recursos internos forem insuficientes, a empresa recorre a empréstimos, começando pelos de menor risco. A emissão de novas ações é o último recurso, utilizada apenas quando a capacidade de endividamento se esgota \cite{Souza2024,Yildirim2021,Singh2025}.
+Para evitar a subavaliação dos ativos e os custos de emissão de novas ações, a TPO sugere que os gestores seguem uma ordem de preferência no financiamento. A prioridade inicial é voltada para os lucros retidos, ou seja, o capital próprio. Se estes recursos internos forem insuficientes, a empresa recorre a empréstimos, começando pelos de menor risco. A emissão de novas ações é o último recurso, utilizada apenas quando a capacidade de endividamento se esgota \cite{Souza2024,Yildirim2021,Singh2025}.
 
-Portanto, a POT sugere que não existe uma estrutura de capital alvo definida; o nível de dívida é o resultado acumulado das necessidades de financiamento ao longo do tempo \cite{shyam1999}. Uma previsão central da POT é que empresas mais lucrativas utilizam menos dívida, pois conseguem financiar suas operações com o caixa gerado internamente \cite{Souza2024, ross2015}.
+Portanto, a TPO sugere que não existe uma estrutura de capital alvo definida; o nível de dívida é o resultado acumulado das necessidades de financiamento ao longo do tempo \cite{shyam1999}. Uma previsão central da TPO é que empresas mais lucrativas utilizam menos dívida, pois conseguem financiar suas operações com o caixa gerado internamente \cite{Souza2024, ross2015}.
+
+O avanço empírico da TOT ganhou força com o modelo proposto por \citeonline{shyam1999}. O modelo foca na sensibilidade da dívida ao déficit de financiamento ($DEF$), que representa a lacuna entre o fluxo de caixa gerado pela empresa e suas necessidades de saída de caixa para investimentos, dividendos e capital de giro. Sob a versão estrita da TOT, a emissão líquida de dívida deveria corresponder, em proporção unitária, ao déficit de financiamento, resultando em um coeficiente estatístico próximo a 1 \cite{shyam1999}.
+ 
+Embora o teste de \citeonline{shyam1999} tenha sido inicialmente recebido como uma prova robusta da TOT, \citeonline{chirinko2000} publicaram uma crítica fundamental que alterou o curso das pesquisas subsequentes. Os autores argumentam que o teste original sofre de graves problemas de baixo poder estatístico, sendo incapaz de distinguir entre a Pecking Order e outras hierarquias de financiamento competitivas. Em particular, \citeonline{chirinko2000} demonstram que mesmo uma empresa que priorizasse a emissão de ações sobre a dívida poderia, erroneamente, validar a Pecking Order pelo teste original, desde que a dívida fosse a fonte dominante no agregado de financiamento.
+ 
+Além disso, o teste falha ao ignorar a questão da capacidade de endividamento. Segundo a TOT dinâmica, quando as empresas se aproximam de seus limites de crédito, a relação entre dívida e déficit deixa de ser linear e torna-se côncava, pois o custo marginal da dívida se torna proibitivo e a empresa é forçada a emitir ações. Para mitigar essas fragilidades, pesquisas contemporâneas sugerem a inclusão de termos quadráticos do déficit ($DEF^2$) e a análise segmentada de empresas com e sem restrições financeiras \cite{chirinko2000}. A detecção de uma relação côncava — coeficiente de $DEF^2$ negativo e significante — forneceria evidência mais fidedigna da hierarquia de preferências, capturando o momento em que a firma recorre ao próximo estágio da ordem de escolha após exaurir sua capacidade de crédito.
 
 \subsection{Revisão da Literatura}
-Estudos recentes buscam testar a aderência das empresas as teorias da POT e TOT, muitas vezes com resultados mistos ou complementares. A Pesquisa feita por \citeonline{Kakouris2025}, indica que as empresas seguem a POT rigorosamente ao emitir ou resgatar dívidas, mas tendem a desviar desse comportamento ao emitir ou recomprar ações, especialmente em mercados como o dos EUA.
+Estudos recentes buscam testar a aderência das empresas as teorias da TPO e TOT, muitas vezes com resultados mistos ou complementares. A Pesquisa feita por \citeonline{Kakouris2025}, indica que as empresas seguem a TPO rigorosamente ao emitir ou resgatar dívidas, mas tendem a desviar desse comportamento ao emitir ou recomprar ações, especialmente em mercados como o dos EUA.
 
-Estudos como os de de \citeonline{Agyei2020} e \citeonline{Singh2025} realizados em pequenas e médias empresas em Gana e na Índia confirmam que empresas mais rentáveis tendem a se endividar menos. Adicionalmente, mostram que há uma relação negativa entre lucratividade e endividamento, sendo essa relação um dos indicadores mais fortes da POT. No entanto, evidências no Brasil, como o trabalho de \citeonline{Souza2024}, sugerem um comportamento híbrido: a lucratividade relaciona-se positivamente com o endividamento de longo prazo, apoiando a TOT, e negativamente com o de curto prazo, apoiando a POT.
+Estudos como os de de \citeonline{Agyei2020} e \citeonline{Singh2025} realizados em pequenas e médias empresas em Gana e na Índia confirmam que empresas mais rentáveis tendem a se endividar menos. Adicionalmente, mostram que há uma relação negativa entre lucratividade e endividamento, sendo essa relação um dos indicadores mais fortes da TPO. No entanto, evidências no Brasil, como o trabalho de \citeonline{Souza2024}, sugerem um comportamento híbrido: a lucratividade relaciona-se positivamente com o endividamento de longo prazo, apoiando a TOT, e negativamente com o de curto prazo, apoiando a TPO.
     
-O trabalho de \citeonline{Agyei2020}, apoia a POT, pois sugere que empresas com maiores oportunidades de crescimento demandam mais recursos externos quando o caixa interno é insuficiente, . Já a TOT pode prever uma relação negativa, pois o crescimento muitas vezes envolve ativos intangíveis que não servem como garantia. No Brasil, o estido de \citeonline{Souza2024} indica que oportunidades de crescimento têm relação positiva com a dívida, apoiando a POT. Quanto ao tamanho, empresas maiores tendem a ter mais dívidas devido à menor assimetria de informação e menor volatilidade, apoiando ambas as teorias sob diferentes perspectivas \cite{Agyei2020}.
+O trabalho de \citeonline{Agyei2020}, apoia a TPO, pois sugere que empresas com maiores oportunidades de crescimento demandam mais recursos externos quando o caixa interno é insuficiente, . Já a TTO pode prever uma relação negativa, pois o crescimento muitas vezes envolve ativos intangíveis que não servem como garantia. No Brasil, o estido de \citeonline{Souza2024} indica que oportunidades de crescimento têm relação positiva com a dívida, apoiando a TPO. Quanto ao tamanho, empresas maiores tendem a ter mais dívidas devido à menor assimetria de informação e menor volatilidade, apoiando ambas as teorias sob diferentes perspectivas \cite{Agyei2020}.
 
-\citeonline{Singh2025}, ao analisarem PMEs listadas na Índia, corroboram que a liquidez e a lucratividade são os principais determinantes das decisões de financiamento, validando a hierarquia de preferências da teoria. De forma análoga, na Turquia, \citeonline{Yildirim2021} identificam que a sensibilidade ao uso de fundos internos e dívida aumenta proporcionalmente ao nível de investimento, reforçando a validade da POT naquele mercado. No continente africano, o estudo de \citeonline{Agyei2020} sobre PMEs ganesas revela um comportamento idêntico, onde o subdesenvolvimento do mercado financeiro local força as empresas a priorizarem recursos internos para sustentar suas operações.
+\citeonline{Singh2025}, ao analisarem PMEs listadas na Índia, corroboram que a liquidez e a lucratividade são os principais determinantes das decisões de financiamento, validando a hierarquia de preferências da teoria. De forma análoga, na Turquia, \citeonline{Yildirim2021} identificam que a sensibilidade ao uso de fundos internos e dívida aumenta proporcionalmente ao nível de investimento, reforçando a validade da TPO naquele mercado. No continente africano, o estudo de \citeonline{Agyei2020} sobre PMEs ganesas revela um comportamento idêntico, onde o subdesenvolvimento do mercado financeiro local força as empresas a priorizarem recursos internos para sustentar suas operações.
 
 A dinâmica de financiamento é frequentemente alterada por choques exógenos e eventos disruptivos, como a pandemia da COVID-19. No Brasil, evidências trazidas por \citeonline{Souza2024} indicam um aumento substancial no nível de endividamento das empresas de capital aberto no período pós-pandemia, refletindo a necessidade premente de recursos externos para a manutenção da continuidade operacional diante da crise.
 
 Embora variáveis específicas para a pandemia nem sempre apresentem significância estatística isolada em modelos de regressão, os autores argumentam que os impactos indiretos na rentabilidade e no valor de mercado foram determinantes nas escolhas de estrutura de capital. Nesse sentido, a instabilidade econômica parece reforçar o comportamento previsto pela Pecking Order, uma vez que a erosão da geração interna de caixa obriga as empresas a recorrerem ao endividamento para suprir lacunas de liquidez \cite{Souza2024}. Assim, a literatura sugere que em períodos de crise, a flexibilidade financeira torna-se o objetivo primordial, muitas vezes em detrimento de uma estrutura de TOT.
 
+\subsection{Desenvolvimento de Hipóteses}
+ 
+Com base na revisão da literatura apresentada, as hipóteses deste estudo foram formuladas para testar não apenas a existência da hierarquia de financiamento, mas também os fatores que a condicionam ou tensionam no contexto das empresas brasileiras de capital aberto.
+ 
+A primeira hipótese busca testar a versão básica do modelo de \citeonline{shyam1999} no contexto brasileiro, avaliando se a variação da dívida constitui o principal mecanismo de ajuste aos desequilíbrios de caixa. Sob a POT, espera-se que, em média, a emissão líquida de dívida reaja positivamente ao déficit de financiamento, atuando como a principal fonte de recursos para cobrir a insuficiência de lucros retidos (\textbf{H1}). A confirmação desta hipótese indicaria que, diante de uma lacuna financeira, as empresas brasileiras preferem o endividamento antes de qualquer outra fonte externa, confirmando a ordem de preferência da POT \cite{shyam1999}.
+ 
+A segunda hipótese incorpora a crítica de \citeonline{chirinko2000} ao teste original, reconhecendo que a capacidade de endividamento impõe um limite prático à hierarquia. A restrição financeira, mensurada pelo Índice KZ, e o nível prévio de alavancagem devem moderar a resposta da dívida ao déficit. Assim, em companhias com alta restrição financeira ou alavancagem excessiva, a sensibilidade da dívida ao déficit seria menor, indicando que essas firmas são forçadas a recorrer à emissão de ações ou à redução de investimentos em razão do esgotamento da capacidade de crédito (\textbf{H2}). Esta hipótese testa a concavidade da relação dívida-déficit, sugerindo que a Pecking Order possui um teto determinado pela solvência da firma e pelo apetite do mercado de crédito \cite{chirinko2000}.
+ 
+A terceira hipótese volta-se para a política de dividendos, tratada na POT como uma variável que as empresas buscam manter estável a fim de evitar sinais negativos ao mercado. No entanto, essa rigidez cria pressão adicional sobre o fluxo de caixa, podendo intensificar a demanda por recursos externos. Desse modo, espera-se que a rigidez na política de dividendos atue como um impulsionador do déficit de financiamento e, consequentemente, aumente a dependência de capital de terceiros, intensificando o comportamento de Pecking Order (\textbf{H3}). Empresas que mantêm pagamentos constantes de dividendos, mesmo em anos de baixa lucratividade, deveriam apresentar variação de dívida mais acentuada para compensar a saída de caixa, em comparação com firmas que possuem políticas de \textit{payout} flexíveis \cite{Kakouris2025}.
+
 \newpage
 
 \section{Metodologia}
  
-\subsection{Abordagem, Tipo de Estudo e Procedimento Técnico}
+\subsection{Tipos de pesquisa}
  
 O presente estudo adota uma abordagem quantitativa, pois busca mensurar relações entre variáveis financeiras e testá-las estatisticamente, permitindo inferências baseadas em evidências numéricas e replicáveis \cite{richardson2017pesquisa}. Quanto ao tipo, classifica-se como explicativo, uma vez que não se limita a descrever o comportamento da estrutura de capital das firmas, mas investiga os mecanismos causais que determinam a hierarquia de financiamento prevista pela Teoria de Pecking Order \cite{gil2008metodos}. O procedimento técnico é documental, com dados secundários extraídos de base de dados financeiros de empresas de capital aberto.
  
-\subsection{Recorte Espacial, Unidade de Análise, Horizonte Temporal e Periodicidade}
+\subsection{Recorte temporal}
  
-O recorte espacial abrange companhias abertas brasileiras listadas na B3 (Brasil, Bolsa, Balcão). A unidade de análise é a firma-ano, sendo cada observação correspondente a uma empresa em um determinado exercício fiscal. O horizonte temporal compreende o período de 2010 a 2023, totalizando 14 anos. Esse recorte contempla um ciclo econômico amplo, incluindo o período de estabilidade pré-crise (2010–2014), a recessão brasileira (2015–2016), a recuperação gradual (2017–2019), os efeitos da pandemia de COVID-19 (2020–2021) e o período de normalização posterior (2022–2023), permitindo capturar variações estruturais e cíclicas no comportamento financeiro das firmas \cite{Souza2024}. A periodicidade dos dados é anual, compatível com a frequência de publicação das demonstrações financeiras e com a natureza anual do déficit de financiamento calculado no modelo de \cite{shyam1999}.
-
-\subsection{População, Amostra, Critérios de Inclusão e Exclusão}
+\subsection{População e amostra}
+  
+\subsection{Base de dados}
+  
+\subsection{Modelo empírico}
  
-A população é formada pelo conjunto de todas as companhias abertas listadas na B3 ao longo do período analisado. A amostra será constituída pelas empresas que satisfaçam simultaneamente os seguintes critérios de inclusão: (\textit{i}) disponibilidade de dados financeiros contínuos para ao menos cinco exercícios consecutivos dentro do intervalo amostral; (\textit{ii}) encerramento de exercício fiscal em 31 de dezembro; e (\textit{iii}) patrimônio líquido positivo em todos os anos da janela de análise.
+\subsubsection{Modelo base}
  
-Serão excluídas da amostra: (\textit{i}) instituições financeiras, seguradoras e fundos de investimento imobiliário, haja vista a natureza distinta de sua estrutura de capital e os requisitos regulatórios específicos que distorcem a comparabilidade dos índices de alavancagem \cite{AssafNeto2014}; (\textit{ii}) empresas com dados inconsistentes ou com mais de 20\% de valores ausentes nas variáveis do modelo; e (\textit{iii}) observações com valores extremos \textit{outliers} identificados pelo método de winsorização bilateral a 1\% e 99\%, de forma a reduzir o impacto de erros de registro sem eliminar as observações.
- 
-A estrutura resultante será um painel não balanceado, o que é metodologicamente adequado ao contexto e elimina o viés de sobrevivência, pois permite a entrada e saída de firmas ao longo do período. Para controlar possível viés de seleção, serão conduzidos testes de Heckman em modelo de dois estágios nas análises de robustez.
- 
-\subsection{Fonte de Dados, Coleta e Processamento}
- 
-Os dados serão obtidos a partir da plataforma Economatica e, complementarmente, da base de dados da Comissão de Valores Mobiliários (CVM), disponível publicamente via portal de dados abertos. As demonstrações financeiras padronizadas (DFP), incluindo o Balanço Patrimonial, a Demonstração do Resultado do Exercício (DRE) e a Demonstração dos Fluxos de Caixa (DFC), serão as principais fontes de extração das variáveis contábeis. O processamento dos dados será realizado em linguagem R.
- 
-O procedimento de limpeza dos dados incluirá: eliminação de duplicatas, conversão das demonstrações para a moeda corrente com deflacionamento pelo IPCA em termos reais (base: dezembro de 2023), verificação de consistência contábil das variáveis (e.g., ativos totais iguais à soma de passivos e patrimônio líquido) e padronização das classificações setoriais conforme a taxonomia da B3.
- 
-\subsection{Modelo Empírico}
- 
-\subsubsection{Modelo Base: Teste da Pecking Order (Shyam-Sunder e Myers, 1999)}
- 
-O modelo empírico central segue a especificação seminal de \cite{shyam1999}, que testa a versão estrita da POT a partir da sensibilidade da emissão líquida de dívida ao déficit de financiamento da firma. O modelo base é expresso por:
+O modelo empírico central segue a especificação seminal de \cite{shyam1999}, que testa a versão estrita da TPO a partir da sensibilidade da emissão líquida de dívida ao déficit de financiamento da firma. O modelo base é expressado pela equação \ref{eq:modelo_base}.
  
 \begin{equation}
-    \Delta D_{it} = \alpha + \beta_{POT} \cdot DEF_{it} + \varepsilon_{it}
+    \Delta D_{it} = \alpha + \beta_{TPO} \cdot DEF_{it} + \varepsilon_{it}
     \label{eq:modelo_base}
 \end{equation}
  
@@ -142,9 +162,9 @@ O modelo empírico central segue a especificação seminal de \cite{shyam1999}, 
  
 \noindent em que $DIV_{it}$ são os dividendos e juros sobre capital próprio pagos, $I_{it}$ são os investimentos líquidos em ativos fixos (CAPEX), $\Delta WC_{it}$ é a variação no capital de giro operacional líquido, e $CF_{it}$ representa o fluxo de caixa operacional após impostos. Todas as variáveis são escalonadas pelo ativo total do início do período para garantir comparabilidade entre firmas de diferentes portes.
  
-Sob a versão estrita da POT, espera-se que o coeficiente $\beta_{POT}$ seja estatisticamente igual a 1, indicando que toda a lacuna de financiamento é coberta por emissão de dívida, e não por equity. Valores de $\beta_{POT}$ significativamente menores que 1 indicam que parte do déficit é suprida por outras fontes, enfraquecendo a teoria.
+Sob a versão estrita da TPO, espera-se que o coeficiente $\beta_{TPO}$ seja estatisticamente igual a 1, indicando que toda a lacuna de financiamento é coberta por emissão de dívida, e não por equity. Valores de $\beta_{TPO}$ significativamente menores que 1 indicam que parte do déficit é suprida por outras fontes, enfraquecendo a teoria.
  
-\subsubsection{Decomposição do Déficit de Financiamento}
+\subsubsection{Decomposição do déficit de financiamento}
  
 Para identificar a hierarquia de prioridades entre as fontes de financiamento, o déficit será decomposto de forma que:
  
@@ -155,7 +175,7 @@ Para identificar a hierarquia de prioridades entre as fontes de financiamento, o
  
 \noindent onde $\Delta E_{it}$ é a variação líquida no capital próprio (emissões de ações menos recompras). As equações (\ref{eq:modelo_base}) e (\ref{eq:decomposicao}) serão estimadas conjuntamente, permitindo verificar qual fonte — dívida ou equity — responde de forma prioritária ao déficit.
  
-\subsubsection{Modelo Estendido I: Rigidez da Política de Dividendos}
+\subsubsection{Modelo estendido I}
  
 Para testar o segundo objetivo específico — avaliar se a rigidez dos dividendos atua como impulsionadora do déficit —, será estimado o seguinte modelo ampliado:
  
@@ -166,7 +186,7 @@ Para testar o segundo objetivo específico — avaliar se a rigidez dos dividend
  
 \noindent onde $RIG_{it}$ é uma variável que captura a rigidez da política de dividendos, mensurada como uma variável \textit{dummy} igual a 1 caso a empresa tenha mantido ou elevado o \textit{payout} nos últimos três anos consecutivos, e 0 caso contrário. O termo de interação $DEF_{it} \times RIG_{it}$ testa se a rigidez dos dividendos amplifica a sensibilidade do endividamento ao déficit. O vetor $X_{it}$ contém variáveis de controle (detalhadas a seguir), $\mu_i$ são os efeitos fixos de firma e $\lambda_t$ são os efeitos fixos de tempo.
  
-\subsubsection{Modelo Estendido II: Restrições Financeiras e Capacidade de Endividamento}
+\subsubsection{Modelo estendido II}
  
 Para o terceiro objetivo específico, será incluída uma proxy de restrição financeira e um indicador de capacidade de endividamento como moderadores:
  
@@ -219,22 +239,22 @@ O Quadro 1 apresenta a síntese das variáveis utilizadas nos modelos, com seus 
     
     % Todo quadro ABNT exige a indicação da fonte logo abaixo da grade
     \vspace{0.2cm}
-    {\raggedright \footnotesize \textbf{Fonte:} Elaborado pelo autor.\par}
+    {\raggedright \footnotesize \textbf{Fonte:} Elaboração própria (2026).\par}
 \end{quadro}
  
-\subsection{Estratégia de Identificação e Estimação}
+\subsection{Estratégia de identificação e estimação}
  
 \subsubsection{Estimadores}
  
-Os modelos serão estimados por três estimadores, em ordem crescente de sofisticação: (\textit{i}) MQO Empilhado (Pooled OLS), como referência; (\textit{ii}) Efeitos Fixos (FE), que controla a heterogeneidade não observada e invariante no tempo ao nível da firma; e (\textit{iii}) Efeitos Aleatórios (RE), cuja adequação em relação ao FE será avaliada pelo Teste de Hausman \cite{Yildirim2021}. Para mitigar possíveis problemas de endogeneidade — decorrentes de causalidade reversa entre déficit e emissão de dívida — serão conduzidas estimações complementares pelo Método dos Momentos Generalizado Sistêmico (GMM-System, Blundell e Bond, 1998), com instrumentalização das variáveis potencialmente endógenas pelos seus defasagens.
+Os modelos serão estimados por três estimadores, em ordem crescente de sofisticação: (\textit{i}) MQO Empilhado (Pooled OLS), como referência; (\textit{ii}) Efeitos Fixos (FE), que controla a heterogeneidade não observada e invariante no tempo ao nível da firma; e (\textit{iii}) Efeitos Aleatórios (RE), cuja adequação em relação ao FE será avaliada pelo Teste de Hausman \cite{Yildirim2021}. Para mitigar possíveis problemas de endogeneidade — decorrentes de causalidade reversa entre déficit e emissão de dívida — serão conduzidas estimações complementares pelo Método dos Momentos Generalizado Sistêmico (GMM-System, Blundell e Bond, 1998), com instrumentalização das variáveis TPOencialmente endógenas pelos seus defasagens.
  
-\subsubsection{Testes Diagnósticos}
+\subsubsection{Testes diagnósticos}
  
 Os seguintes testes serão reportados sistematicamente para garantir a validade das estimativas: (\textit{i}) Teste de Hausman, para escolha entre FE e RE; (\textit{ii}) Teste de Wooldridge para autocorrelação serial de primeira ordem nos resíduos do painel; (\textit{iii}) Teste de Wald Modificado (ou Levene) para heterocedasticidade nos grupos; (\textit{iv}) Testes de Arellano-Bond (AR(1) e AR(2)) e Teste de Hansen de sobre-identificação, válidos para as especificações GMM; e (\textit{v}) Fator de Inflação da Variância (FIV), para diagnóstico de multicolinearidade entre os regressores. Os erros-padrão serão corrigidos para heterocedasticidade e autocorrelação por meio da clusterização ao nível da firma, seguindo \cite{Yildirim2021}.
  
-\subsubsection{Critérios de Significância e Análises de Robustez}
+\subsubsection{Critérios de significância e análises de robustez}
  
-O critério de significância estatística adotado é o convencional de 5\% (p $<$ 0,05), com menção adicional aos níveis de 10\% e 1\% onde aplicável. Para assegurar a robustez dos resultados, serão conduzidas as seguintes análises adicionais: (\textit{i}) substituição do índice de restrição financeira KZ pelo índice de Whited-Wu (WW); (\textit{ii}) adoção de medidas alternativas de alavancagem (dívida líquida sobre ativo e dívida de longo prazo sobre ativo); (\textit{iii}) estimação por regressão quantílica em painel, seguindo a abordagem de \cite{Yildirim2021}, para verificar se a aderência à POT varia ao longo da distribuição condicional do endividamento; (\textit{iv}) análise do subperíodo 2020–2021 como verificação do efeito da pandemia de COVID-19 sobre a hierarquia de financiamento, conforme indicado por \cite{Souza2024}; e (\textit{v}) segmentação da amostra por porte (grandes versus pequenas e médias empresas) e por setor de atividade.
+O critério de significância estatística adotado é o convencional de 5\% (p $<$ 0,05), com menção adicional aos níveis de 10\% e 1\% onde aplicável. Para assegurar a robustez dos resultados, serão conduzidas as seguintes análises adicionais: (\textit{i}) substituição do índice de restrição financeira KZ pelo índice de Whited-Wu (WW); (\textit{ii}) adoção de medidas alternativas de alavancagem (dívida líquida sobre ativo e dívida de longo prazo sobre ativo); (\textit{iii}) estimação por regressão quantílica em painel, seguindo a abordagem de \cite{Yildirim2021}, para verificar se a aderência à TPO varia ao longo da distribuição condicional do endividamento; (\textit{iv}) análise do subperíodo 2020–2021 como verificação do efeito da pandemia de COVID-19 sobre a hierarquia de financiamento, conforme indicado por \cite{Souza2024}; e (\textit{v}) segmentação da amostra por porte (grandes versus pequenas e médias empresas) e por setor de atividade.
  
 \newpage
 
