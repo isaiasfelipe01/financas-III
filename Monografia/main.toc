@@ -12,13 +12,13 @@
 \contentsline {subsection}{\numberline {3.2}Recorte temporal}{10}{}%
 \contentsline {subsection}{\numberline {3.3}População e amostra}{10}{}%
 \contentsline {subsection}{\numberline {3.4}Base de dados}{10}{}%
-\contentsline {subsection}{\numberline {3.5}Modelo empírico}{10}{}%
-\contentsline {subsubsection}{\numberline {3.5.1}Modelo base}{10}{}%
-\contentsline {subsubsection}{\numberline {3.5.2}Decomposição do déficit de financiamento}{10}{}%
+\contentsline {subsection}{\numberline {3.5}Modelo empírico}{11}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}Modelo base}{11}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Decomposição do déficit de financiamento}{11}{}%
 \contentsline {subsubsection}{\numberline {3.5.3}Modelo estendido I}{11}{}%
-\contentsline {subsubsection}{\numberline {3.5.4}Modelo estendido II}{11}{}%
-\contentsline {subsection}{\numberline {3.6}Variáveis}{11}{}%
-\contentsline {subsection}{\numberline {3.7}Estratégia de identificação e estimação}{12}{}%
-\contentsline {subsubsection}{\numberline {3.7.1}Estimadores}{12}{}%
-\contentsline {subsubsection}{\numberline {3.7.2}Testes diagnósticos}{12}{}%
-\contentsline {subsubsection}{\numberline {3.7.3}Critérios de significância e análises de robustez}{12}{}%
+\contentsline {subsubsection}{\numberline {3.5.4}Modelo estendido II}{12}{}%
+\contentsline {subsection}{\numberline {3.6}Variáveis}{12}{}%
+\contentsline {subsection}{\numberline {3.7}Estratégia de identificação e estimação}{13}{}%
+\contentsline {subsubsection}{\numberline {3.7.1}Estimadores}{13}{}%
+\contentsline {subsubsection}{\numberline {3.7.2}Testes diagnósticos}{13}{}%
+\contentsline {subsubsection}{\numberline {3.7.3}Critérios de significância e análises de robustez}{13}{}%

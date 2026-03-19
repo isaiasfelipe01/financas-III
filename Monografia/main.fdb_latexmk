@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex main"] 1773854635.35501 "main.aux" "main.bbl" "main" 1773854636.31883 0
-  "./referencias.bib" 1773854633.18344 8387 1aa8e09030620fa1d05f84792e51bc4b ""
+["bibtex main"] 1773933206.71055 "main.aux" "main.bbl" "main" 1773933209.15452 0
+  "./referencias.bib" 1773933203.87132 8387 1aa8e09030620fa1d05f84792e51bc4b ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "main.aux" 1773854635.90696 9874 9970a501b247d2bba01bc014bfb42f99 "pdflatex"
+  "main.aux" 1773933208.17748 9920 392adc7a09c2170fc3f33092ffbfaf63 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773854635.46944 "/home/stenio/MEGA/Latex/financas-III/Monografia/main.tex" "main.pdf" "main" 1773854636.31909 0
+["pdflatex"] 1773933206.97225 "/home/stenio/MEGA/Latex/financas-III/Monografia/main.tex" "main.pdf" "main" 1773933209.15501 0
   "/etc/texmf/web2c/texmf.cnf" 1771109391.1272 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/stenio/MEGA/Latex/financas-III/Monografia/main.tex" 1773854617.57658 31687 df7e16404404c2a71c7630e20515361a ""
+  "/home/stenio/MEGA/Latex/financas-III/Monografia/main.tex" 1773933203.96588 34364 426e66be41485394e229c0dd13c43e87 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi1440.tfm" 1136768653 3072 4dda4299ed0d9dcf48c6a8bcfdc499fc ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -96,10 +96,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771109412.73544 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771109472 8211416 d1487f1f5b41cbfe0c1bc29a03cabf26 ""
-  "main.aux" 1773854635.90696 9874 9970a501b247d2bba01bc014bfb42f99 "pdflatex"
-  "main.bbl" 1773854635.46447 7255 a80d6dc4fecf1ebc21e6150c5a84d9c3 "bibtex main"
-  "main.tex" 1773854617.57658 31687 df7e16404404c2a71c7630e20515361a ""
-  "main.toc" 1773854635.90996 1795 5181f4b790cffda9b3e5a65f3fbc0fee "pdflatex"
+  "main.aux" 1773933208.17748 9920 392adc7a09c2170fc3f33092ffbfaf63 "pdflatex"
+  "main.bbl" 1773933206.96166 7255 a80d6dc4fecf1ebc21e6150c5a84d9c3 "bibtex main"
+  "main.tex" 1773933203.96588 34364 426e66be41485394e229c0dd13c43e87 ""
+  "main.toc" 1773933208.18249 1795 2e9e93ec48be4e45505bf8cea74a1d79 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
